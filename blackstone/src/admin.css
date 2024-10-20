@@ -1,0 +1,131 @@
+/* Admin Page Styling */
+
+.body2 {
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+    background-color: white; /* Set body background color */
+    height: 100vh;
+    width: 100% ; /* Changed to 100% for responsiveness */
+    width: 96rem !important; /* Added max-width for larger screens */
+}
+
+.admin-container {
+    font-family: 'Arial', sans-serif;
+    height: 100vh; /* Full viewport height */
+    width: 100%; /* Full viewport width */
+    display: flex;
+    flex-direction: column; /* Allows the footer to stick to the bottom */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4f93e1;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.logout-btn {
+    background-color: #ff4b5c;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #e03644;
+}
+
+/* Body */
+.admin-body {
+    flex-grow: 1; /* Allow the body to take up remaining space */
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Attendance Table */
+.attendance-table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Ensures the rounded corners are applied */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.attendance-table th,
+.attendance-table td {
+    padding: 12px; /* Increased padding for better spacing */
+    border: 1px solid #dddddd; /* Light border color */
+    color: #333333; /* Darker text color */
+}
+
+.attendance-table th {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: #000000; /* White text for better contrast */
+    font-weight: bold;
+}
+
+.attendance-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light grey for even rows */
+}
+
+.attendance-table tr:hover {
+    background-color: #e9ecef; /* Light background on hover */
+}
+
+.attendance-table select {
+    padding: 6px; /* Padding for select dropdown */
+    border: 1px solid #007bff; /* Border color matching the header */
+    border-radius: 4px; /* Rounded corners for dropdown */
+    background-color: #ffffff; /* White background for dropdown */
+    color: #000000;
+    cursor: pointer; /* Pointer cursor for better UX */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.attendance-table select:focus {
+    outline: none; /* Remove default outline */
+    border-color: #0056b3; /* Darker border color on focus */
+}
+
+/* Footer */
+.admin-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: #fff; /* Make footer text white */
+}

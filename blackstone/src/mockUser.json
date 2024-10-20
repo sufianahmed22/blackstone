@@ -1,0 +1,33 @@
+[
+    {
+      "id": 1,
+      "username": "admin1",
+      "password": "adminPass123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "12345",
+      "password": "studentPass123",
+      "role": "student"
+    },
+    {
+      "id": 3,
+      "username": "admin2",
+      "password": "adminPass456",
+      "role": "admin"
+    },
+    {
+      "id": 4,
+      "username": "67890",
+      "password": "studentPass456",
+      "role": "student"
+    },
+    {
+      "id": 5,
+      "username": "11223",
+      "password": "studentPass789",
+      "role": "student"
+    }
+  ]
+  
